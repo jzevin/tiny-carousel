@@ -1,0 +1,23 @@
+{
+  "name": "carousel",
+  "version": "0.0.1",
+  "description": "Jeremy Zevin",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillyDesignr/carousel.git"
+  },
+  "author": "Jeremy Zevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phillyDesignr/carousel/issues"
+  },
+  "homepage": "https://github.com/phillyDesignr/carousel#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

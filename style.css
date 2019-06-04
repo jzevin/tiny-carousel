@@ -1,0 +1,16 @@
+body {
+    padding: 3em 0 0 0;
+    margin:  0;
+    background-color: #333;
+}
+
+.container {
+    background-color: #333;
+    outline: 1px solid darkorange;
+}
+
+#trgt {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #444;
+}
