@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Carousel - Jeremy Zevin</title>
 </head>
+
 <body>
 
-    <div class="container">
-        <div id="trgt"></div>
+
+    <div class="carousel">
+        <div class="controls">
+            <div class="btn" data-btn-type="next"></div>
+            <div class="btn" data-btn-type="previous"></div>
+        </div>
+        <div class="slide-container">
+            <div class="slide"><img src="https://loremflickr.com/900/600/bird" /></div>
+            <div class="slide"><img src="https://loremflickr.com/900/600/cat" /></div>
+            <div class="slide"><img src="https://loremflickr.com/900/600/dog" /></div>
+            <div class="slide"><img src="https://loremflickr.com/900/600/mouse" /></div>
+            <div class="slide"><img src="https://loremflickr.com/900/600/bear" /></div>
+        </div>
     </div>
 
     <script src="app.js"></script>
 </body>
+
 </html>
